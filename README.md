@@ -7,7 +7,7 @@ This Github repository contains the source code of the project I told everyone a
 **A simple Graphical User Interface (GUI) for applying nightcore effects to your audio files using the Python module `pynightcore`** <br/>
 <br/>
 
-![pync-gui-github-image-edit](https://user-images.githubusercontent.com/62176660/116444687-46e48500-a855-11eb-84f9-046bfafeb63f.jpg)
+![Pynightcore GUI Project](https://user-images.githubusercontent.com/62176660/116444687-46e48500-a855-11eb-84f9-046bfafeb63f.jpg)
 
 <br/>
 
@@ -15,7 +15,7 @@ This Github repository contains the source code of the project I told everyone a
 
 <br/>
 
-**Features :** <br/>
+## **Features :** <br/>
 * An easy to use Graphical User Interface (GUI). <br/>
 
 * All what you have to do is just choosing the speed change percentage and the program will change the `pitch` and `tempo` automatically for you. <br/>
@@ -89,6 +89,8 @@ Then, I made this firstly for myself, assuming I would start a nightcore channel
 
 There is only 1 limit to this program (Which can sometimes be considered annoying for some people), it is that you must have your song as a `wav` file, also, the output will be a `wav` file, it is not really that annoying because the `wav` audio format can be played on anything, and it can be opened by all video editing software. <br/>
 
+It can edit `.mp3` Audio files if you have `ffmpeg` installed on your computer and added to the **SYSTEM** `Path`, but in case you don't have it installed, you will have to use Software like [Format Factory](http://www.pcfreetime.com/formatfactory/index.php?language=en) to convert your `.mp3` file to `.wav` format, If you do have any other alternatives feel free to use them. <br/>
+
 
 ## License <br/>
 
@@ -110,18 +112,27 @@ This section is reserved as the *downloads* section. <br/>
 
 <br/>
 
-
-**Download version 1.0 (Stable) for Windows 10 64-bit or newer (Modern PCs)** - Click [here](https://downloadlink.com/someotherlinks) <br/>
-
-
-**Download version 1.0 (Stable) for Windows 10 32-bit and 64-bit or newer (Somewhat for Modern PCs)** - Click here <br/>
+### Download for Microsoft Windows : <br/>
+ 
+**Download version 1.0 (Stable) for Windows 10 64-bit or newer (Modern PCs)** - Click [here](https://drive.google.com/file/d/107djrGvTDhYfUOHCOg6skEXBCIv-r_X4/view?usp=sharing) <br/>
 
 
-**Download version 1.0 (Stable) for Windows 7 Service Pack 1 64-bit or newer (Older PCs)** - Click [here](https://downloadlink.com/someotherlinks) <br/>
+**Download version 1.0 (Stable) for Windows 10 32-bit and 64-bit or newer (Somewhat for Modern PCs)** - Click here (Coming soon) <br/>
 
+
+**Download version 1.0 (Stable) for Windows 7 Service Pack 1 64-bit or newer (Older PCs)** - Click here (Coming soon) <br/>
+
+
+### Download for Linux : <br/>
+
+**Only available to use through the Python module, or through a Python version configured to work with [Tcl](https://en.wikipedia.org/wiki/Tcl)/[Tk](https://en.wikipedia.org/wiki/Tk_(software)) with some changes to the code file `pync-gui.py`**. <br/>
+
+### Download for MacOS X : <br/>
+**Requires MacOS X with Python 3.6.x+ configured to work with [Tcl](https://en.wikipedia.org/wiki/Tcl)/[Tk](https://en.wikipedia.org/wiki/Tk_(software))***, also it can work through some edits to the file `pync-gui.py`*. <br/>
+
+### Python Source File : <br/>
 
 **Download Python 3.x.x+ Source Code file, including all other required files for recompiling this program** - *Clone this repository (repo) using `git`* by writing the following commands : <br/>
-
 
 ```
 cd [working directory]
@@ -149,6 +160,12 @@ Simply, create a new issue and make sure to clearly describe what you want by cr
 
 <br/>
 
+# Credits : <br/>
+* **To Anmi@画集発売中** for the Anime Picture I am using as this program's Icon file and Banner Picture - See [this link](https://www.pixiv.net/en/artworks/86426089) <br/>
+* **To the 'pydub' Author/maintainer**, Without this module this program would not exist. <br/>
+
+<br/>
+
 
 # Support? <br/>
 
@@ -168,3 +185,18 @@ My Github : [insertx2k](https://github.com/insertx2k) <br/>
 
 ***And thank you for reading and downloading!*** <br/>
 -Insert
+<br/>
+# `Pynightcore` **Python** Module <br/>
+
+**A simple Python module made in order to make the development of the Program "pynightcore GUI" easier**, *but there you go because you can download it* <br/>
+
+A **Python** module used to help you **nightcore** your songs directly within **Python IDLE** or **Visual Studio Code**. <br/>
+
+## An example of usage : <br/>
+```py
+# Importing the module 'pynightcore'
+import pynightcore as pync
+# Applying nightcore effects to the file 'in.wav' through changing it's speed by 40% thus both the pitch and the tempo will automatically change, then saving the output file as 'out.wav'
+pync.apply_effects("in.wav", "out.wav", 40, 192000)
+# This is the end of the Python code.
+```
