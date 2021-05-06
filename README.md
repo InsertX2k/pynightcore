@@ -107,7 +107,8 @@ This section is reserved as the *downloads* section. <br/>
 <br/>
 
 
-![Downloads section](https://github.com/insertx2k/reponame/reporeadmefilesfolderdir/rawpictureuploadlink)
+![Download Section (I do not own the character nor the image, I just own the edits)](https://user-images.githubusercontent.com/62176660/117224223-ab808080-ae0f-11eb-84fc-64d6cc7b1630.jpg)
+
 
 
 <br/>
@@ -163,6 +164,7 @@ Simply, create a new issue and make sure to clearly describe what you want by cr
 # Credits : <br/>
 * **To Anmi@画集発売中** for the Anime Picture I am using as this program's Icon file and Banner Picture - See [this link](https://www.pixiv.net/en/artworks/86426089) <br/>
 * **To the 'pydub' Author/maintainer**, Without this module this program would not exist. <br/>
+* **Character K2 from [Girls' Frontline Game](https://gf.sunborngame.com/)**, as this is the character used in the banner image of the **Downloads** section of this **README.md** file. <br/>
 
 <br/>
 
