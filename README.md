@@ -106,11 +106,6 @@ This section is reserved as the *downloads* section. <br/>
 
 <br/>
 
-
-![Download Section (I do not own the character nor the image, I just own the edits)](https://user-images.githubusercontent.com/62176660/117224223-ab808080-ae0f-11eb-84fc-64d6cc7b1630.jpg)
-
-
-
 <br/>
 
 ### Download for Microsoft Windows : <br/>
