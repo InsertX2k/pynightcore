@@ -159,7 +159,6 @@ Simply, create a new issue and make sure to clearly describe what you want by cr
 # Credits : <br/>
 * **To Anmi@画集発売中** for the Anime Picture I am using as this program's Icon file and Banner Picture - See [this link](https://www.pixiv.net/en/artworks/86426089) <br/>
 * **To the 'pydub' Author/maintainer**, Without this module this program would not exist. <br/>
-* **Character K2 from [Girls' Frontline Game](https://gf.sunborngame.com/)**, as this is the character used in the banner image of the **Downloads** section of this **README.md** file. <br/>
 
 <br/>
 
